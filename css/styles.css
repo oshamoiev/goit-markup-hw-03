@@ -108,7 +108,24 @@ img {
     background-color: #2e2f42;
 }
 
+.hero-container {
+    padding: 188px 312px;
+}
+
+.hero-title {
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
 .order-button {
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -125,15 +142,6 @@ img {
 .menu-link:hover, .menu-link:focus,
 .contact-list-link:hover, .contact-list-link:focus {
     color: #404bbf;
-}
-
-.hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
 }
 
 .feature-title {
