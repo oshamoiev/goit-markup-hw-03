@@ -280,7 +280,15 @@ img {
 }
 
 .page-footer {
+    padding: 100px 0;
     background-color: #2e2f42;
+}
+
+.page-footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 264px;
 }
 
 .footer-text {
