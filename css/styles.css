@@ -226,7 +226,34 @@ img {
     color: #434455;
 }
 
+.portfolio-container {
+    padding: 120px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #e7e9fc;
+}
+
+.portfolio-item-name {
+    margin-bottom: 8px;
+}
+
+.portfolio-item-content {
+    margin-top: auto;
+    padding: 32px 16px;
+}
+
 .portfolio-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
